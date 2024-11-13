@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import * as Dialog from "@radix-ui/react-dialog";
 
 import axios from "axios";
 import "./styles/main.css";
+import * as Dialog from "@radix-ui/react-dialog";
 import logoImg from "./assets/logo-nlw-esports.svg";
 import { GameBanner } from "./components/GameBanner";
 import { CreateAdModal } from "./components/CreatAdModal";
